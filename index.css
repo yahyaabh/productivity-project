@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/*everytging inside of this*/
+.main-background {
+  background-color: #ffa69e;
+  background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+  width: 100%;
+  height: 100vh;
+}
+
+/*side bar*/
+#side-bar {
+  position: fixed;
+  margin: 100px 40px;
+  width: 5vw;
+  height: 60vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 13px;
+  overflow: hidden;
+}
+#side-links-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
+}
+.link {
+  position: relative;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+}
+
+#navbar {
+  height: 20vh;
+}
+
+#navbar ul {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  background-color: white;
+  padding: 13px;
+  border-radius: 5px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  color: black;
+}
+.show {
+  display: block;
+}
+#timer {
+  display: none;
+  margin-left: 200px;
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+#timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#timer-container li {
+  margin: 10px;
+  list-style: none;
+}
+.timer-elements {
+  text-align: center;
+  font-size: 22px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px black solid;
+  cursor: pointer;
+}
+
+#time-box {
+  background-color: white;
+}
+
+#enter {
+  width: 100px;
+  height: 30px;
+}
+
+#to-do {
+  display: none;
+  margin-left: 600px;
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+#quotes-big {
+  display: none;
+  margin-left: 1000px;
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+#quotes-big div {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  font-size: 25px;
+}
+#random {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+#to-do input {
+  width: 80%;
+  height: 10%;
+}
+#to-do button {
+  width: 18%;
+  height: 10%;
+}
